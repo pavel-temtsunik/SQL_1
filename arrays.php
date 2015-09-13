@@ -8,5 +8,14 @@ echo "br";
 echo $family[0];
 echo "<br>";
 
-echo count($family)
-?>sdsd
+echo count($family);
+
+
+ $paper = array("Copier", "Inkjet", "Laser", "Photo");
+$j = 0;
+foreach ($paper as $item)
+{
+    echo "$j: $item<br>";
+    ++$j;
+}
+?>
